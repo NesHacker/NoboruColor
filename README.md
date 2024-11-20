@@ -13,9 +13,5 @@ tool (installation should only be required on Windows).
 Update the `MakeFile` or define a shell variable named `GBDK_HOME` pointing to
 the directory where you installed GBDK.
 
-With the tools installed installed and the home directory defined open the
-command-line and run make from the project's root directory:
-
-```
-$ make
-```
+Once the tools are installed and the home directory is defined, all you have
+to do is run `make` from the project's root directory:
