@@ -15,9 +15,6 @@
 #define RGB_GRASS_GREEN     RGB8(70, 180, 70)
 #define RGB_DIRT_DARK       RGB8(44, 26, 11)
 
-extern const uint16_t paletteBrick[];
-extern const uint16_t paletteGround[];
-
 void draw_brick (uint8_t x, uint8_t y);
 void draw_level(void);
 void load_palettes(void);
