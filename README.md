@@ -9,9 +9,12 @@ A Game Boy Color C implementation of basic platformer controller movement.
 * [GNU Make](https://gnuwin32.sourceforge.net/packages/make.htm) - Build system
 tool (installation should only be required on Windows).
 
-
 ### Use Make to Build the ROM
-With the tools installed installed, open a command-line and run make:
+Update the `MakeFile` or define a shell variable named `GBDK_HOME` pointing to
+the directory where you installed GBDK.
+
+With the tools installed installed and the home directory defined open the
+command-line and run make from the project's root directory:
 
 ```
 $ make
